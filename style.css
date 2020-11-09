@@ -1,0 +1,236 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#container{
+    margin : 20px auto;
+    background: rgb(63,94,251);
+    background: linear-gradient(331deg, rgba(63,94,251,1) 0%, rgba(209,0,250,1) 46%, rgba(239,230,242,1) 100%);
+    height: 600px;
+    width : 1000px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+#start{
+    font-size: 1.5em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:150px;
+    height:90px;
+    text-align: center;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 15px double #ffffff;
+    cursor: pointer;
+    position: absolute;
+    left:420px;
+    top:50px;
+    color : white;
+}
+#start:hover{
+    
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 20px double #f7ff00;
+  
+}
+
+#qImg{
+    width : 200px;
+    height : 200px;
+    position: absolute;
+    left : 0px;
+    top : 0px;
+}
+#qImg img{
+    width : 450px;
+    height : 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#question{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+#question p{
+    font-weight: 600;
+    margin : 0;
+    padding : 15px;
+    font-size: 1.75em;
+}
+#A{
+    background:green;
+}
+#B{
+    background:red;
+}
+#C{
+    background: yellow;
+}
+#choices{
+    width : 520px;
+    position: absolute;
+    right : 0;
+    top : 250px;
+    padding : 15px
+}
+.choice{
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 50px;
+    cursor: pointer;
+    padding : 13px;
+}
+.choice:hover{
+    border : 4px solid white;
+    font-weight: 800;
+}
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#counter{
+    font-size: 3em;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#scoreContainer{
+    margin : 20px auto;
+    background-color: white;
+    opacity: 0.8;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+}
+#scoreContainer img{
+    position: absolute;
+    top:100px;
+    left:325px;
+}
+#scoreContainer p{
+    position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
+
+@media only screen and (max-width : 480px)
+{ #question p{
+    font-weight: 600;
+    font-size: 2.40em;
+    }
+    #container{
+        height: 800px;
+    }
+    #choices{
+        width : 900px;
+        position: absolute;
+        right : 20px;
+        top : 480px;
+        padding : 15px
+    }
+    .choice{
+        width : 220px;
+        border-radius: 50px;
+        padding : 30px;
+        font-weight: 600;
+        font-size: 40px;
+
+    }
+    .prog{
+        width : 38px;
+        height : 38px;
+    }
+    #counter{
+        font-size: 4em;
+    }
+    #scoreContainer{
+        height: 800px;
+        width: 1000px;
+    }
+    #scoreContainer img {
+        top: 200px;
+        left: 400px;
+        width: 20%;
+    }
+    #scoreContainer p {
+        width: 59px;
+        height: 59px;
+        top: 230px;
+        left: 400px;
+        font-size: 7.5em;
+    }
+    .footer{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
