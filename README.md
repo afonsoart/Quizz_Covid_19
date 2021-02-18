@@ -1,5 +1,5 @@
 # Quizz_Covid_19
- Quiz com várias questões de multipla escolha em Java Script
+ Quiz com várias questões de multipla escolha em Java Script.
 
 
-![](img/img-quiz-covid-git.PNG)
+![](../img/img-quiz-covid-git.PNG)
