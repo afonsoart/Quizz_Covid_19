@@ -2,4 +2,4 @@
  Quiz com várias questões de multipla escolha em Java Script
 
 
-![](img/img_quiz-covid-git.png)
+![](img/img-quiz-covid-git.png)
